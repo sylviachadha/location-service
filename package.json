@@ -1,0 +1,27 @@
+{
+  "name": "cloud_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sylviachadha/cloud_app.git"
+  },
+  "author": "Sylvia Chadha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sylviachadha/cloud_app/issues"
+  },
+  "homepage": "https://github.com/sylviachadha/cloud_app#readme",
+  "dependencies": {
+    "@google/maps": "^0.5.5",
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "path": "^0.12.7"
+  }
+}
